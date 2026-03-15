@@ -1,1 +1,9 @@
-I am new to git
+Repository and File Management
+mkdir <folder-name>: Creates a new directory (folder) in your file system.
+cd <folder-name>: Changes the current directory to the specified folder.
+git init: Initializes a new Git repository in the current directory by creating a hidden .git folder.
+touch <file-name>: (For Unix/macOS, Windows uses echo > <file-name>) Creates a new, empty file.
+git status: Shows the status of the working directory and the staging area (which files are untracked, modified, or staged).
+git add <file-name>: Stages a specific file to be included in the next commit.
+git add .: Stages all changes (new, modified, and deleted files) in the current directory and its subdirectories.
+git commit -m "message": Records the staged changes as a new commit in the local repository with a descriptive messagegit vi 
